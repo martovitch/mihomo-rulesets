@@ -140,23 +140,32 @@ payload:
   - '+.facebook.net'
   - '+.fb.com'
   - '+.fbcdn.net'
-  - '+.static.xx.fbcdn.net'      # Added for problematic Facebook CDN
+  - '+.static.xx.fbcdn.net'      # Added for problematic static CDN
   - '+.static.*.fbcdn.net'      # Added for other static subdomains
+  - '+.scontent.*.fbcdn.net'    # Added for scontent subdomains
+  - '+.scontent-*.xx.fbcdn.net' # Added for regional scontent subdomains
   - '+.fbsbx.com'               # Added for Facebook services
   - '+.fb.me'                   # Added for shortened URLs
   - '+.messenger.com'           # Added for Messenger
   - '+.m.facebook.com'          # Added for mobile access
   - '+.edge.facebook.com'       # Added for edge servers
   - '+.graph.facebook.com'      # Added for Graph API
+  - '+.connect.facebook.net'    # Added for analytics and scripts
+  - '+.api.facebook.com'        # Added for API endpoints
+  - '+.b-api.facebook.com'      # Added for business APIs
+  - '+.b-graph.facebook.com'    # Added for business Graph APIs
   - '+.whatsapp.com'            # Added for WhatsApp
   - '+.whatsapp.net'            # Added for WhatsApp network
   - '+.akamaihd.net'            # Added for Akamai CDN
   - '+.edgekey.net'             # Added for Akamai CDN
   - '+.edgesuite.net'           # Added for Akamai CDN
+  - '+.fastly.net'              # Added for Fastly CDN (potential)
+  - '+.cloudfront.net'          # Added for AWS CloudFront CDN (potential)
   - '+.cdninstagram.com'        # Added for Instagram CDN
   - '+.gateway.discord.gg'
   - '+.images.discordapp.net'
   - '+.instagram.com'
+  - '+.instagram.f*.fna.fbcdn.net'
   - '+.instagram.fhrk1-1.fna.fbcdn.net'
   - '+.instagram.fkun2-1.fna.fbcdn.net'
   - '+.instagram.frix7-1.fna.fbcdn.net'
@@ -180,16 +189,16 @@ payload:
   - '+.tiktokv.us'
   - '+.tiktokw.us'
   - '+.x.ai'
-  - '+.api.x.ai'                # Added for Grok APIs
-  - '+.cdn.x.ai'                # Added for Grok CDN
-  - '+.ws.x.ai'                 # Added for WebSocket
-  - '+.auth.x.ai'               # Added for authentication
-  - '+.api.x.com'               # Added for X APIs
-  - '+.cdn.x.com'               # Added for X CDN
-  - '+.cloudflare.com'          # Added for Cloudflare services
-  - '+.auth0.com'               # Added for authentication
-  - '+.okta.com'                # Added for authentication
-  - '+.pusher.com'              # Added for real-time communication
+  - '+.api.x.ai'
+  - '+.cdn.x.ai'
+  - '+.ws.x.ai'
+  - '+.auth.x.ai'
+  - '+.api.x.com'
+  - '+.cdn.x.com'
+  - '+.cloudflare.com'
+  - '+.auth0.com'
+  - '+.okta.com'
+  - '+.pusher.com'
   # Покупки/Электронная коммерция
   - '+.element14.com'
   - '+.envato.com'
