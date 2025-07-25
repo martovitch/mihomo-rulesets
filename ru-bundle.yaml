@@ -139,7 +139,9 @@ payload:
   - '+.facebook.com'
   - '+.facebook.net'
   - '+.fb.com'
-  - '+.fbcdn.net'                # Added for Facebook CDN
+  - '+.fbcdn.net'
+  - '+.static.xx.fbcdn.net'      # Added for problematic Facebook CDN
+  - '+.static.*.fbcdn.net'      # Added for other static subdomains
   - '+.fbsbx.com'               # Added for Facebook services
   - '+.fb.me'                   # Added for shortened URLs
   - '+.messenger.com'           # Added for Messenger
@@ -152,7 +154,6 @@ payload:
   - '+.edgekey.net'             # Added for Akamai CDN
   - '+.edgesuite.net'           # Added for Akamai CDN
   - '+.cdninstagram.com'        # Added for Instagram CDN
-  - '+.instagram.f*.fna.fbcdn.net' # Added for additional Instagram CDNs
   - '+.gateway.discord.gg'
   - '+.images.discordapp.net'
   - '+.instagram.com'
@@ -183,7 +184,6 @@ payload:
   - '+.cdn.x.ai'                # Added for Grok CDN
   - '+.ws.x.ai'                 # Added for WebSocket
   - '+.auth.x.ai'               # Added for authentication
-  - '+.x.com'
   - '+.api.x.com'               # Added for X APIs
   - '+.cdn.x.com'               # Added for X CDN
   - '+.cloudflare.com'          # Added for Cloudflare services
