@@ -212,6 +212,7 @@ payload:
     - '+.yting.com'
     - '+.zetflix.online'
   #Новости и СМИ:
+   # - '+.mdza.io'
    # - '+.24.kg'
    # - '+.activatica.org'
    # - '+.agents.media'
@@ -1225,7 +1226,6 @@ payload:
     - '+.macpaw.com'
     - '+.manus.im'
     - '+.mashable.com'
-    - '+.mdza.io'
     - '+.medicalnewstoday.com'
     - '+.medium.com'
     - '+.melord.net'
