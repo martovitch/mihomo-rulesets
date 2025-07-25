@@ -1014,6 +1014,7 @@ payload:
     - '+.wunderground.com'
     - '+.www.wunderground.com'
   #Фото и дизайн:
+    - '+.dafont.com'
     - '+.alphacoders.com'
     - '+.canva-apps.com'
     - '+.canva.com'
