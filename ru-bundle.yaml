@@ -390,6 +390,7 @@ payload:
     - '+.vpnunlimited.com'
     - '+.www.torproject.org'
   #Разработка и IT:
+    - '+.net4all.ru/'
     - '+.account.jetbrains.com'
     - '+.activestate.com'
     - '+.adafruit.com'
